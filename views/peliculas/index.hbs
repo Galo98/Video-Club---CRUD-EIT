@@ -1,0 +1,26 @@
+<h1>Listado de peliculas</h1>
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Año</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">nombre</th>
+            <td>genero</td>
+            <td>año</td>
+            <td>
+                <a class="btn btn-primary" href="/peliculas/1">Ver detalles</a>
+                <a class="btn btn-warning" href="/peliculas/edit/1">Editar</a>
+                <form class="d-inline" action="/peliculas/1" method="POST">
+                    <button class="btn btn-danger ">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>
